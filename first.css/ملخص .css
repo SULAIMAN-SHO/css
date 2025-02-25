@@ -1,0 +1,284 @@
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+.link-div {
+    width: 100%;
+    border-color: #505050;
+    border-style: solid;
+    border-width: 3px;
+    text-align: right;
+
+
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.link-table {
+
+    width: 100%;
+    border-spacing: 0px;
+}
+
+.link-head {
+
+
+    border: solid #505050;
+    border-width: 10px 0px 10px 0px;
+    width: 60%;
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    font-size: 40px;
+    text-align: center;
+}
+
+.hedd {
+    border-left: 10px solid #505050;
+}
+
+.hed-s {
+    display: inline-block;
+    background: rgb(89, 89, 89);
+    padding: 15px;
+    margin: 9px;
+    border-radius: 55px;
+
+}
+
+.hed-s:hover {
+    color: red;
+    background-color: #ffffff;
+    cursor: pointer;
+    transition-duration: 500ms;
+}
+
+.link-text {
+    border-bottom: solid #505050;
+    border-left: solid #505050;
+    border-width: 10px;
+    width: 60px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    padding: 9px 15px 9px 0px;
+    line-height: 55px;
+    vertical-align: middle;
+
+}
+
+.link-img {
+
+    border-bottom: solid #505050;
+    border-width: 10px;
+    background-color: #080808;
+    width: 40%;
+
+
+}
+
+span {
+
+    border-bottom: solid 1px red;
+    padding: 5px 8px 5px 8px;
+    /* text-decoration: underline rgb(255, 0, 0) 3px; */
+    color: rgb(0, 132, 255);
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+span:hover {
+    background-color: rgba(0, 191, 255, 0.879);
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    transition-duration: 500ms;
+}
+
+.link-img-whidth {
+    width: 100%;
+}
+
+.center {
+    display: block;
+
+    text-align: center;
+}
+
+.centeer {
+    display: inline-block;
+    text-align: center;
+}
+
+
+.dawn {
+
+    text-align: center;
+}
+
+.s1 {
+    font-size: 50px;
+    line-height: 100px;
+}
+
+.text-left {
+    background-color: #d1a214;
+    color: #000;
+    text-align: center;
+    display: block;
+    cursor: pointer;
+    margin-left: 9px;
+    direction: ltr;
+
+}
+
+.text-left:hover {
+    background-color: rgba(0, 191, 255, 0.879);
+    transition-duration: 500ms;
+    color: white;
+}
+
+mark {
+    display: inline-block;
+    background-color: #d1a214;
+    color: #000;
+    padding-left: 9px;
+    padding-right: 9px;
+    margin: 9px;
+    border-radius: 35px;
+    cursor: pointer;
+
+}
+
+mark:hover {
+    background-color: rgba(0, 191, 255, 0.879);
+    transition-duration: 500ms;
+    color: white;
+}
+
+.my-logo {
+    z-index: 900;
+    position: fixed;
+    top: 5px;
+    left: 3px;
+    background-color: rgba(192, 192, 192, 0.816);
+    padding: 8px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.image {
+    width: 120px;
+}
+
+.div1 {
+    background-color: rgb(50, 50, 50);
+    z-index: 800;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+}
+
+.my-logo:hover {
+    background-color: rgba(255, 0, 0, 0.793);
+    transition-duration: 500ms;
+}
+
+.p-claod {
+    z-index: 900;
+    position: fixed;
+    top: 3px;
+    right: 45px;
+    width: 205px;
+    text-align: center;
+    cursor: pointer;
+    padding: 13px;
+    border-radius: 30px;
+    font-size: 30px;
+    color: white;
+}
+
+.p-claod:hover {
+    color: red;
+    transition-duration: 500ms;
+}
+
+.image2 {
+    z-index: 900;
+    position: fixed;
+    top: 3px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.816);
+    padding: 7px;
+    border-radius: 30px;
+}
+
+.image2:hover {
+    cursor: pointer;
+    background-color: red;
+    transition-duration: 500ms;
+}
+
+.space {
+    height: 60px;
+}
+
+.parent {
+    width: 60%;
+    height: 29px;
+    background-color: silver;
+    border-radius: 29px;
+    position: fixed;
+    top: 15px;
+    right: 390px;
+    z-index: 999;
+    gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+    overflow: auto;
+    direction: ltr;
+}
+
+.child {
+    padding: 3px 1px 3% 1px;
+    margin: 2px 5px 2px 5px;
+    text-align: center;
+
+
+}
+
+.child:hover {
+    cursor: pointer;
+    background-color: rgba(0, 191, 255, 0.879);
+    border-radius: 25px;
+    transition-duration: 800ms;
+
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+}
+
+a:visited {
+    color: red;
+}
+
+a:hover {
+    transition-duration: 600ms;
+    color: white;
+}
+
+a:active {
+    color: blue;
+
+}
